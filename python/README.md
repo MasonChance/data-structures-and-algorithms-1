@@ -129,4 +129,4 @@ Whiteboard and initial planning with Logan Jones, Alex angelico, Sean Hawkins
 
 [Challenge 18: K_ary_FizzBuzz](https://github.com/MasonChance/data-structures-and-algorithms-1/pull/17)
 
-
+[Challenge 26: insert_sort]()
