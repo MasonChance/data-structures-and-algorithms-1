@@ -128,4 +128,4 @@ Whiteboard and initial planning with Logan Jones, Alex angelico, Sean Hawkins
  ![Challenge 17 Whiteboard](code_challenges/assets/code-challenge-17-whitboard.png)
 
 
-[Challenge 30: Hashtable Implementation PR]()
+[Challenge 30: Hashtable Implementation PR](https://github.com/MasonChance/data-structures-and-algorithms-1/pull/20)
