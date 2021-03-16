@@ -1,4 +1,5 @@
 from code_challenges.hashtable.hash_table import HashTable
+import string
 """[Module with a method for finding the first repeated word
 in a string of any length. Requires a HashTable]
 """
@@ -13,6 +14,7 @@ def first_repeat(long_str):
     table = HashTable(size=1024)
 
     for word in long_str:
+        word = word.strip(str(string.punctuation))
         if table.contains(word):
             return word
         else:
@@ -20,4 +22,3 @@ def first_repeat(long_str):
             continue
 
     return f'no repeated words found'
-

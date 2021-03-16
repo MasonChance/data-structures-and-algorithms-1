@@ -22,4 +22,10 @@ def test_first_repeat_no_repeat():
     assert actual == expected
 
 
+def test_first_repeat_punctuation():
+    punc = 'Once upon a, time, there was a brave princess who...'
+    actual = first_repeat(punc)
+    expected = 'a'
+    assert actual == expected
+
 
