@@ -1,12 +1,33 @@
 from linked_list.linked_list import LinkedList
 
 class HashTable:
+    """[class used to create and operate on a hashtable]
+    """
+
+
     def __init__(self, size=256):
+        """[creates instance of a hashtable]
+
+        Args:
+            _size (int, optional): [sets length of HashTable.]. Defaults to 256.
+
+        Attr: 
+            _bucket (list): [a list of LinkedLists with head attr  values set 
+            to None]. len(_bucket) == Arg:_size
+        """
         self._size = size
         self._bucket = self._size * [LinkedList()]
 
 
     def _hash(self, key):
+        """[runs key argument through simple hash algorithm]
+
+        Args:
+            key ([str]): [string of any length]
+
+        Returns:
+            [Int]: [Index between 0 and length of hashtable]
+        """
         sum = 0
         for char in key:
             sum += ord(char)

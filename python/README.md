@@ -129,3 +129,6 @@ Whiteboard and initial planning with Logan Jones, Alex angelico, Sean Hawkins
 
 
 [Challenge 30: Hashtable Implementation PR](https://github.com/MasonChance/data-structures-and-algorithms-1/pull/20)
+
+
+[Challenge 30: Repeated-Word with Hash]()
