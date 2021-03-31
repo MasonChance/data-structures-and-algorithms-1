@@ -1,8 +1,6 @@
 from code_challenges.stacks_and_queues.stacks_and_queues import  Queue as Q 
 
 
-
-
 class Node:
   """Creates an instance of Node for use in BinaryTree
   """
@@ -29,7 +27,10 @@ class BinaryTree:
   def __repr__(self):
     return f'An instance of a BinaryTree, root is {self.root.value}'
   
-  def pre_order(self):
+  def pre_order(self)-> list:
+    """[traverses binary tree instance and returns
+    an array of values]
+    """
     def traverse(root, result=[]):
       if not root:
         return  
