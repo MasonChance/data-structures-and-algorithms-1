@@ -1,8 +1,6 @@
 from code_challenges.stacks_and_queues.stacks_and_queues import  Queue as Q 
 
 
-
-
 class Node:
   """Creates an instance of Node for use in BinaryTree
   """
