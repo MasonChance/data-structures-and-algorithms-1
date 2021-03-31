@@ -129,4 +129,20 @@ Whiteboard and initial planning with Logan Jones, Alex angelico, Sean Hawkins
 
 [Challenge 18: K_ary_FizzBuzz](https://github.com/MasonChance/data-structures-and-algorithms-1/pull/17)
 
+
 [Challenge 26: insert_sort](https://github.com/MasonChance/data-structures-and-algorithms-1/pull/18)
+
+[Challenge 27](https://github.com/codefellows/data-structures-and-algorithms/pull/28)
+
+[Challenge 30: Hashtable Implementation PR](https://github.com/MasonChance/data-structures-and-algorithms-1/pull/20)
+
+[Challenge 30: Repeated-Word with Hash](https://github.com/MasonChance/data-structures-and-algorithms-1/pull/21)
+
+
+[Challenge 32: Tree intersection](https://github.com/MasonChance/data-structures-and-algorithms-1/pull/22)
+![Challenge 32: whiteboard](code_challenges/assets/challenge-32-whiteboard.png)
+
+
+[Challenge 33: left-join-hashmap PR]()
+![Challenge 33: left-join-hashmap Whiteboard](code_challenges/assets/Challenge-33-left-join-whiteboard.png)
+
