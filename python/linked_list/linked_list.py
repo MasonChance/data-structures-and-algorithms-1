@@ -11,6 +11,8 @@ class Node:
         self.value = value
         self.next = next
 
+    def __str__(self):
+        return f'Node value: {self.value} Next: {self.next}'
 
 class LinkedList:
     """builds an instance of a Singly Linked List. all relevant methods have their own docstrings
@@ -37,9 +39,10 @@ class LinkedList:
         Space: O(N)
         """
         
-        if self.head is not None:
-            node = Node(value, self.head)
-        self.head = node
+        if self.head.value == None:
+            self.head.value = value
+        else:
+            self.head = Node(value, self.head)
     
 
     def includes(self, check: any) -> bool: 
