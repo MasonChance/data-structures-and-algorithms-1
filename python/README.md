@@ -135,3 +135,5 @@ Whiteboard and initial planning with Logan Jones, Alex angelico, Sean Hawkins
 [Graph-breadth-PR](https://github.com/MasonChance/data-structures-and-algorithms-1/pull/25)
 
 
+![Challenge-38 Depth traverse Graph](code_challenges/assets/challenge-38-whiteboard.png)
+[Depth-traverse-graph PR]()
